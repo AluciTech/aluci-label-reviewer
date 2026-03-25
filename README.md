@@ -24,19 +24,19 @@ From the root of the repository you want to review, run the install script with 
 **For Claude Code**:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AluciTech/aluci-label-reviewer/main/install.sh | bash -s -- claude
+curl -fsSL https://raw.githubusercontent.com/AluciTech/aluci-label-reviewer/refs/heads/main/install.sh | bash -s -- claude
 ```
 
 **For OpenCode**:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AluciTech/aluci-label-reviewer/main/install.sh | bash -s -- opencode
+curl -fsSL https://raw.githubusercontent.com/AluciTech/aluci-label-reviewer/refs/heads/main/install.sh | bash -s -- opencode
 ```
 
 **For both**:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AluciTech/aluci-label-reviewer/main/install.sh | bash -s -- all
+curl -fsSL https://raw.githubusercontent.com/AluciTech/aluci-label-reviewer/refs/heads/main/install.sh | bash -s -- all
 ```
 
 This downloads `AGENTS.md` and the `/pre-review` command into the current directory. No other dependencies are required.
