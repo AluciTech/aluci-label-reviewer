@@ -39,14 +39,14 @@ curl -fsSL https://raw.githubusercontent.com/AluciTech/aluci-label-reviewer/main
 curl -fsSL https://raw.githubusercontent.com/AluciTech/aluci-label-reviewer/main/install.sh | bash -s -- all
 ```
 
-This downloads `AGENTS.md` and the `/review` command into the current directory. No other dependencies are required.
+This downloads `AGENTS.md` and the `/pre-review` command into the current directory. No other dependencies are required.
 
 ## Usage
 
 From the target repository, run:
 
 ```bash
-/review
+/pre-review
 ```
 
 The assistant will:
