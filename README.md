@@ -4,7 +4,7 @@
 
 ## Overview
 
-A repo with different commands for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenCode](https://opencode.ai/) and other alternativesacting acting as helpers for the [Aluci labeling](https://github.com/AluciTech/aluci-label) committee. It explores a repository, gathers evidence against the [Aluci label criteria](https://github.com/AluciTech/aluci-label/blob/main/CRITERIA.md), and produces structured notes so human reviewers can work better and focus on judgment calls.
+A repo with different commands for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenCode](https://opencode.ai/) and other alternatives, acting as helpers for the [Aluci labeling](https://github.com/AluciTech/aluci-label) committee. It explores a repository, gathers evidence against the [Aluci label criteria](https://github.com/AluciTech/aluci-label/blob/main/CRITERIA.md), and produces structured notes so human reviewers can work better and focus on judgment calls.
 
 This is **not** an automated pipeline: it surfaces facts and flags concerns. The final verdict is always made by humans.
 
@@ -72,7 +72,9 @@ From the target repository, invoke any installed command. For example:
 
 Each command is a standalone `.md` file living in your tool's commands directory (`.claude/commands/` or `.opencode/commands/`).
 
-## Releasing a new version
+## Maintainers
+
+### Releasing a new version
 
 1. Make sure all changes are committed and pushed to `main`.
 2. Tag the commit and push the tag:
